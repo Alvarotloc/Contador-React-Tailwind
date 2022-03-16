@@ -17,8 +17,8 @@ const CounterApp = (): JSX.Element => {
   };
   return (
     <>
-      <h1 className="text-5xl text-white font-bold">Que papaia de counter</h1>
-      <h2 className="text-3xl text-white font-black my-10">{puntos}</h2>
+      <h1 className="md:text-5xl text-white font-bold text-center">Que papaia de counter</h1>
+      <h2 className="md:text-3xl text-white font-black my-10">{puntos}</h2>
       <div className="flex">
         <Boton texto={"Restar puntos"} funcion={restarPuntos} />
         <Boton texto={"Reset"} funcion={resetear} />
