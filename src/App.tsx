@@ -1,6 +1,8 @@
+import CounterApp from "./components/CounterApp"
+
 function App():JSX.Element {
   return (
-    <div>Papapion</div>
+    <CounterApp />
   )
 }
 
